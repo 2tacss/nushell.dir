@@ -77,7 +77,7 @@ $env.theme                     = ($env.dots       | path join "themes")
 $env.theme_configure           = ($env.theme      | path join "base/configure")
 $env.theme_style               = ($env.theme      | path join "base/styles")
 $env.theme_current             = ($env.theme      | path join "current-theme")
-$env.theme_engine              = ($env.python     | path join "theme-manager")
+$env.theme_engine              = ($env.HOME       | path join "workspace/python/theme-manager")
 
 # ========================================================================== #
 #  Workspaces                                                                #
