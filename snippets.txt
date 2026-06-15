@@ -1,0 +1,79 @@
+hx load-nushell-snippets
+load-nushell-snippets
+cd jobops/data
+jobops order --final
+jobops order --edit finalized
+jobops order --finish
+jobops order --edit rakuten
+jobops order --edit direct
+cd ~/jobops/rpp/input
+cd ~/jobops/rpp/backdata/
+jobops rpp --extraction
+jobops rpp --final
+cd jobops/rpp
+cd jobops/rpp/backdata/input
+cd rpp
+rm -rf .venv/
+rm */*.csv
+mkdir workspace/asm
+ls (p workspace)
+cd workspace/
+cd (p workspace c shapequake)
+cd (p workspace c shapequake shell)
+cd workspace/c
+cd workspace/c/playground/shapequake
+cd ~/workspace/c/playground/shapequake/pattern-b-epoll
+~/workspace/c/playground/shapequake/shared_process
+cd ~/workspace/c/playground/shapequake/shared_process
+~/workspace/c/playground/shapequake/shared_process
+cd ~/workspace/c/playground/shapequake/shared_process
+cd ~/workspace/c/playground/shapequake/shared_process
+cd ~/workspace/c/playground/shapequake/shared_process
+cd ~/workspace/c/playground/shapequake/pthread/eventfd/
+cd ~/workspace/c/playground/shapequake/pthread/mutex/
+~/workspace/c/playground/shapequake/pthread/pooling/
+~/workspace/c/playground/shapequake/pthread/pooling/
+~/workspace/c/playground/shapequake/pthread/eventfd/
+cd ~/workspace/c/playground/shapequake/
+~/workspace/c/playground/shapequake/shared_process/
+~/workspace/c/playground/shapequake/
+~/workspace/c/playground/shapequake/module/
+cp ~/workspace/c/playground/shapequake/module/reactor.c src/
+cp ~/workspace/c/playground/shapequake/module/reactor.h include/
+commentbox-cstyle ""
+commentlineblock-cstyle ""
+edit-tag 'targetfile' -a "artist" "title"
+add memo filename "msg"
+add memo -r filename
+add memo -r
+add memo
+git status -u
+git quick-stats
+git push -u origin main
+git status
+git staged
+git log --format="%H"; git status
+git reset --soft HEAD~1
+hx .gitignore
+git checkout main
+git diff
+w2m --json | from json | where type == "url" | get path.2 | each {|url| ^w3m $url} | glow -p
+nyx zen
+transfer-orders
+cp-orders
+source ~/.config/nushell/config.nu
+source ~/.config/nushell/env.nu
+hx ~/.config/nushell/config.nu
+hx ~/.config/nushell/env.nu
+cd $env.theme_configure
+cd $env.theme_current
+mbsync -a
+7z x googlechrome.dmg -o/tmp/chrome_out
+file /tmp/chrome_out/Google\ Chrome.app/Contents/MacOS/Google\ Chrome
+echo "--- Test 1360 ---"; ping -M do -s 1332 -c 1 8.8.8.8
+sudo hx /etc/network/interfaces
+sudo ifdown wlo1; sudo ifup wlo1
+splite sqlite3 -table ./mtu_db "SELECT * FROM scan_logs;"
+sqlite3 -table ./mtu_db "SELECT * FROM scan_logs;"
+sqlite3 -table ./mtu_db "delete from scan_logs"
+rm mtu_db
