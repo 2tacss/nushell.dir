@@ -5,6 +5,11 @@ def p [...parts: string] {
     } | path join
 }
 
+def celebrate-100 [] { 
+    print "🎉 100 Commits Reached! 🎉"; 
+    git log -1 --pretty=format:'%h - %an, %ar : %s' 
+}
+
 # eza wrapper
 def el [
     target: any = "."
